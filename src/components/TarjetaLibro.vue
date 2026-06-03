@@ -25,14 +25,18 @@ const verDetalle = () => {
 <style scoped>
 .tarjeta {
   border: 1px solid #ccc;
+  background-color: #E4C4FF;
   padding: 15px;
   margin: 10px;
   cursor: pointer;
   border-radius: 6px;
+  transition: all 0.3s ease;
 }
 .tarjeta:hover {
-  border-color: #42b883;
-  background-color: #f9f9f9;
+  border-color: #313066;
+  background-color:  #E4C4FF;
+  box-shadow: #4e80b5;
+  transform: translateY(-4px);
 }
 .badge {
   background: #35495e;

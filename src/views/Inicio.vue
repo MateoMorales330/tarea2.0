@@ -35,6 +35,7 @@ const verDetalle = (isbn) => {
 <style scoped>
 /* Contenedor principal limitado al tamaño de la pantalla */
 .inicio-container {
+  background-color: #ffedda;
   max-width: 100vw;
   padding: 20px;
   box-sizing: border-box;
@@ -49,23 +50,32 @@ const verDetalle = (isbn) => {
 
 /* Estilo de cada tarjeta para evitar que el texto rompa el diseño */
 .tarjeta-libro {
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   padding: 15px;
   border-radius: 8px;
-  background-color: #f9f9f9;
-  /* Evita que el contenido vertical desborde la tarjeta si es muy largo */
+  background-color: #f0e0d0;
+
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s ease;
+}
+.tarjeta-libro:hover {
+  border-color: #3ff7e1;
+  background-color: #f9f9f9;
+  box-shadow: #4e80b5;
+  transform: translateY(-4px);
 }
 
 .descripcion {
   font-size: 0.9em;
-  color: #555;
+  color: #1e293b;
   /* Corta el texto con puntos suspensivos si es demasiado extenso */
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+
 </style>

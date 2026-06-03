@@ -10,7 +10,7 @@
 .navbar {
   display: flex;
   gap: 20px;
-  background-color: #35495e;
+  background-color: #4b352a;
   padding: 15px 20px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -27,6 +27,6 @@
 
 .navbar a:hover,
 .navbar a.router-link-active {
-  background-color: #42b883; /* Resalta la página en la que estás */
+  background-color: #34000b; /* Resalta la página en la que estás */
 }
 </style>

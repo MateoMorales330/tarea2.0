@@ -16,5 +16,6 @@ import Navbar from './components/Navbar.vue'
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: bisque;
 }
 </style>

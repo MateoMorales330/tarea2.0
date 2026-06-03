@@ -39,32 +39,40 @@ const libro = computed(() => store.obtenerPorIsbn(props.id))
 }
 
 a {
-  color: #42b883;
+  color: #000000;
+  border: 1px solid #030303;
+  background-color: #C4FFC7;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
   text-decoration: none;
-  font-weight: bold;
   margin-bottom: 20px;
   display: inline-block;
+  transition: all 0.5s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-color: #000000;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+  transform: translateY(-4px);
 }
 
 h1 {
-  color: #333;
+  color: #f96f6f;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h2 {
-  color: #666;
+  color: #d180d8;
   font-weight: 400;
   font-size: 1.2em;
   margin-bottom: 20px;
 }
 
 p {
-  color: #555;
+  color: #0fcce9;
   margin: 10px 0;
   font-size: 1.05em;
 }
@@ -76,3 +84,6 @@ p {
   font-family: sans-serif;
 }
 </style>
+//h1 titulo del libro
+//h2 subtitulo
+//p el resto osea genero etc

@@ -33,11 +33,13 @@ const generoSeleccionado = ref(null)
 <style scoped>
 .filtro-generos {
   padding: 20px;
-  background: #f7f7f7;
+  border: 2px solid black;
+  background: #6f5233;
   border-radius: 10px;
 }
 
 .botones {
+  transition: 0.3s ease;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -45,20 +47,22 @@ const generoSeleccionado = ref(null)
 }
 
 button {
-  border: none;
-  background: #42b883;
-  color: white;
+  border: 1px solid grey;
+  background: #c08552;
+  color: rgb(255, 255, 255);
   padding: 8px 14px;
   border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #2f8a6d;
+  background: #9c6644;
 }
 
 button.activo {
-  background: #1a5a4a;
+  background: #9c6644;
   font-weight: bold;
 }
+
+
 </style>

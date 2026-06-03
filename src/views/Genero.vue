@@ -55,19 +55,19 @@ const verDetalle = (isbn) => {
 }
 
 .tarjeta-libro {
-  border: 1px solid #ccc;
+  border: 1px solid #1b2f49;
   padding: 15px;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #FFBB6A;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .tarjeta-libro:hover {
-  border-color: #42b883;
+  border-color: #0fa1e0;
   box-shadow: 0 4px 12px rgba(66, 184, 131, 0.2);
   transform: translateY(-4px);
 }
@@ -75,7 +75,7 @@ const verDetalle = (isbn) => {
 .sin-seleccion {
   text-align: center;
   padding: 40px;
-  color: #666;
+  color: #001eff;
   font-size: 18px;
 }
 
